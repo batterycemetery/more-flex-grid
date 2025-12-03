@@ -226,12 +226,15 @@ p{
     background-color: var(--wht);
     padding: 96px 32px;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px 32px;
+    padding: 96px 32px;
 }
     /* Styles were added here to arrange the content, I used grid */
     /* do not touch!!! */
 
 #plants h3, #plants > p{
-    align-content: center;
+    grid-column: 1 / -1;
     /* Styles were added here to arrange the content, these are grid children styles */
     /* do not touch!!! */
 }
@@ -241,10 +244,9 @@ p{
     /* TO DO */
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    flex-wrap: no-wrap;
     margin: 32px auto 0;
+    gap: 8px;
+    justify-content: space-between;
 }
 
 #plants h4{
@@ -255,7 +257,7 @@ p{
 #plants img{
     /* Styles were added here to arrange the content, I used a property for a flexbox child to change the order that the content appears on the page */
     /* TO DO */
-    
+    order: -1;
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -276,13 +278,16 @@ p{
     color: var(--wht);
     padding: 64px 32px;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 32px;
+    padding: 64px 32px;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
 
 /* Contact Heading and Paragraph */
 #contact h3, #contact > p{
-    align-content: center;
+    grid-column: 1 / -1;
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
 }
@@ -372,7 +377,8 @@ th:nth-of-type(even), td:nth-of-type(even){
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+
     width: fit-content;
     margin: 16px auto;
     list-style-type: none;
@@ -381,7 +387,7 @@ th:nth-of-type(even), td:nth-of-type(even){
 
 /* Heading for Social Media Section */
 #social h4{
-    text-align: center;
+    justify-content: center;
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
 }
