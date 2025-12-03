@@ -137,7 +137,7 @@ nav ul{
     padding: 0;
     display: flex;
     /* Styles were added here to arrange the content, I used flexbox */
-    /* TO DO */
+    /* DONE */
 }
 
 nav a{
@@ -167,7 +167,7 @@ nav a span{
     z-index: 2;
     top: -140px;
     /* Styles were added here to arrange the content, I used top and z-index for this */
-    /* TO DO */
+    /* DONE */
 }
 
 nav a:focus{
@@ -225,6 +225,7 @@ p{
 #plants{
     background-color: var(--wht);
     padding: 96px 32px;
+    display: grid;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
