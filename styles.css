@@ -227,6 +227,7 @@ p{
     padding: 96px 32px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
