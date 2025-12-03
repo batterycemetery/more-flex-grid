@@ -226,29 +226,35 @@ p{
     background-color: var(--wht);
     padding: 96px 32px;
     display: grid;
-    /* Styles were added here to arrange the content, I used grid */
-    /* TO DO */
 }
+    /* Styles were added here to arrange the content, I used grid */
+    /* do not touch!!! */
 
 #plants h3, #plants > p{
     align-content: center;
     /* Styles were added here to arrange the content, these are grid children styles */
-    /* TO DO */
+    /* do not touch!!! */
 }
 
 #plants section{
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
+    display: flex;
+    justify-content: center;
+    order: 3;
+    flex-direction: row;
     margin: 32px auto 0;
 }
 
 #plants h4{
     margin: 16px 0;
+    order: 1
 }
 
 #plants img{
     /* Styles were added here to arrange the content, I used a property for a flexbox child to change the order that the content appears on the page */
     /* TO DO */
+    order: 2;
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -268,12 +274,14 @@ p{
 #contact{
     color: var(--wht);
     padding: 64px 32px;
+    display: grid;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
 
 /* Contact Heading and Paragraph */
 #contact h3, #contact > p{
+    align-content: center;
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
 }
