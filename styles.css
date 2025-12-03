@@ -226,12 +226,12 @@ p{
     background-color: var(--wht);
     padding: 96px 32px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
 
 #plants h3, #plants > p{
+    align-content: center;
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
 }
