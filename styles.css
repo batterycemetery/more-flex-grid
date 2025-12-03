@@ -231,9 +231,6 @@ p{
 }
 
 #plants h3, #plants > p{
-    justify-content: space-evenly;
-    align-content: center;
-
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
 }
@@ -251,9 +248,6 @@ p{
 #plants img{
     /* Styles were added here to arrange the content, I used a property for a flexbox child to change the order that the content appears on the page */
     /* TO DO */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 100%;
     max-width: 400px;
     height: auto;
