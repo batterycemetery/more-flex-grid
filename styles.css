@@ -250,6 +250,7 @@ p{
     /* TO DO */
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
     max-width: 400px;
     height: auto;
