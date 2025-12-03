@@ -1,5 +1,5 @@
 /*
-    Name: 
+    Name: August Alvarado
 */
 
 :root{
@@ -135,6 +135,7 @@ nav{
 nav ul{
     list-style-type: none;
     padding: 0;
+    display: flex;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
 }
