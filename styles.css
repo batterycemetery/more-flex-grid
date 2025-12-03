@@ -231,6 +231,8 @@ p{
 }
 
 #plants h3, #plants > p{
+    justify-content: space-evenly;
+
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
 }
